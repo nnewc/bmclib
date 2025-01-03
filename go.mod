@@ -2,6 +2,8 @@ module github.com/bmc-toolbox/bmclib/v2
 
 go 1.21
 
+replace github.com/jacobweinstock/iamt => github.com/nnewc/iamt main
+
 require (
 	dario.cat/mergo v1.0.0
 	github.com/Jeffail/gabs/v2 v2.7.0
